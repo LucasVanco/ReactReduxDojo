@@ -4,8 +4,6 @@ import { ListGroup, ListGroupItem, Button, Glyphicon } from 'react-bootstrap'
 class UsersList extends Component {
 
   onDeleteClick (user, event) {
-    event.preventDefault()
-    this.props.deleteUser(user.id)
   }
 
   render() {
